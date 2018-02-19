@@ -3,30 +3,30 @@
 }
 
 h1 {
-  line-height: 1.2em;
   font-family: 'San Francisco', Helvetica, Arial, san-serif;
   font-size: 18px;
   font-weight: bold;
+  line-height: 1.2em;
 }
 
 h3 {
-  line-height: 1em;
   font-family: 'San Francisco', Helvetica, Arial, san-serif;
   font-size: 13px;
+  line-height: 1em;
 }
 
 p {
-  line-height: 2em;
   background-color: #333;
   font-family: 'San Francisco', Helvetica, Arial, san-serif;
   font-size: 100%;
+  line-height: 2em;
 }
 
 body {
-  line-height: 1em;
   background-color: #333;
   font-family: 'San Francisco', Helvetica, Arial, san-serif;
   font-size: 10px;
+  line-height: 1em;
 }
 
 .container {
@@ -43,16 +43,16 @@ nav {
 }
 
 .restaurant-list {
-  padding-top: 10%;
-  width: 100%;
   border-left: 40px solid #3A3A3A;
   border-right: 40px solid #3A3A3A;
+  padding-top: 10%;
+  width: 100%;
 }
 
 .location {
   background-color: #ffffff;
-  position: static;
   border: 2px solid #000000;
+  position: static;
   padding: 10px;
   width: 100%;
 }
@@ -62,17 +62,19 @@ nav {
 }
 
 .arrow {
-  display: inline;
+  display: inline-block;
   float: right;
-  width: 10%;
+  padding-top: 1%;
+  width: 5%;
 }
 
 .arrow-left {
   display: inline-block;
   margin-left: 10%;
+  padding-top: 1%;
 }
 
 .content {
-  display: inline;
-  width: 10%;
+  display: inline-block;
+  width: 95%;
 }
